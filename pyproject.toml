@@ -1,0 +1,14 @@
+[project]
+name = "coding-ninja"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-core>=0.3.75",
+    "langchain-google-genai>=2.1.10",
+    "openpyxl>=3.1.5",
+    "pandas>=2.3.2",
+    "python-dotenv>=1.1.1",
+    "streamlit>=1.49.1",
+]
